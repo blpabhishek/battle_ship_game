@@ -31,7 +31,7 @@ var BotPlayer = function(gameId) {
 
 BotPlayer.prototype.start = function() {
     var caller = this;
-    log.log_message('writeFile','botPlayer.log','Initilized ➽ time Stamp '+new Date().toLocaleTimeString());
+    log.log_message('writeFile','botPlayer.log','Initialized ➽ time Stamp '+new Date().toLocaleTimeString());
      var options = {
         hostname: HOST,
         port: PORT,
